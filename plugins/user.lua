@@ -10,4 +10,12 @@ return {
   --   end,
   -- },
   "theHamsta/nvim-dap-virtual-text",
+  {
+    "mfussenegger/nvim-dap",
+    dependencies = {
+      "suketa/nvim-dap-ruby",
+      name = "dap-ruby",
+      opts = {},
+    },
+  },
 }
