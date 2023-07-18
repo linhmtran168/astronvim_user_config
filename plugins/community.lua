@@ -23,5 +23,14 @@ return {
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.telescope-undo-nvim" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  {
+    "m4xshen/smartcolumn.nvim",
+    opts = {
+      colorcolumn = "120",
+    },
+  },
   { import = "astrocommunity.git.octo-nvim" },
 }
